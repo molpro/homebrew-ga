@@ -1,8 +1,7 @@
 class Ga < Formula
   homepage "http://hpc.pnl.gov/globalarrays/"
-  url "http://hpc.pnl.gov/globalarrays/download/ga-5-3.tgz"
+  url "https://svn.pnl.gov/svn/hpctools/branches/ga-5-3"
   version "5.3"
-  sha1 "b4e5fdc7f25e76d4d9e4c8b23f9c9ae2855cd925"
 
   depends_on "gcc"
   depends_on :fortran
