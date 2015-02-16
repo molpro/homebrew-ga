@@ -5,6 +5,7 @@ class Ga < Formula
 
   head do
     url "https://svn.pnl.gov/svn/hpctools/trunk/ga"
+    version "HEAD"
   end
 
   depends_on "gcc"
