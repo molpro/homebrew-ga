@@ -3,6 +3,10 @@ class Ga < Formula
   url "https://svn.pnl.gov/svn/hpctools/branches/ga-5-3"
   version "5.3"
 
+  head do
+    url "https://svn.pnl.gov/svn/hpctools/trunk/ga"
+  end
+
   depends_on "gcc"
   depends_on :fortran
   depends_on "mpich-ga"
