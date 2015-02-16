@@ -26,7 +26,7 @@ class Ga < Formula
            "--enable-cxx",
            "--prefix=#{prefix}"
     system "make"
-    #system "make check MPIEXEC='mpiexec -np 2'"
+    # system "make", "check", "MPIEXEC='mpiexec -np 2'"
     system "make", "install"
   end
 
