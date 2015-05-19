@@ -1,7 +1,9 @@
 class Ga < Formula
   homepage "http://hpc.pnl.gov/globalarrays/"
-  url "https://svn.pnl.gov/svn/hpctools/branches/ga-5-3"
-  version "5.3"
+# url "https://svn.pnl.gov/svn/hpctools/branches/ga-5-4"
+  url "http://hpc.pnl.gov/globalarrays/download/ga-5-4b.tgz"
+  sha256 "dfdf250dc06de9aafe2edbe70c246aff92b907d8469cb1f83bd8185593e35b9a"
+  version "5.4b"
 
   head do
     url "https://svn.pnl.gov/svn/hpctools/trunk/ga"
