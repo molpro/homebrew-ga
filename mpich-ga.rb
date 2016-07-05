@@ -1,8 +1,8 @@
 class MpichGa < Formula
   homepage "http://www.mpich.org/"
-  url "http://www.mpich.org/static/downloads/3.1.4/mpich-3.1.4.tar.gz"
-  mirror "https://fossies.org/linux/misc/mpich-3.1.4.tar.gz"
-  sha1 "af4f563e2772d610e57e17420c9dcc5c3c9fec4e"
+  url "http://www.mpich.org/static/downloads/3.2/mpich-3.2.tar.gz"
+  mirror "https://fossies.org/linux/misc/mpich-3.2.tar.gz"
+  sha256 "0778679a6b693d7b7caff37ff9d2856dc2bfc51318bf8373859bfa74253da3dc"
   revision 1
 
   head do
